@@ -1,4 +1,4 @@
-// ConsoleApplication10.cpp: определ€ет точку входа дл€ консольного приложени€.
+// ConsoleApplication10.cpp: √Ѓ√ѓ√∞√•√§√•√Ђ√њ√•√≤ √≤√Ѓ√Ј√™√≥ √Ґ√µ√Ѓ√§√† √§√Ђ√њ √™√Ѓ√≠√±√Ѓ√Ђ√Љ√≠√Ѓ√£√Ѓ √ѓ√∞√®√Ђ√Ѓ√¶√•√≠√®√њ.
 //
 
 #include "stdafx.h"
@@ -11,7 +11,6 @@ int menu();
 int main()
 
 {
-	setlocale(LC_ALL, "RUS");
 	SetConsoleOutputCP(1251);
 	SetConsoleCP(1251);
 
@@ -19,11 +18,11 @@ int main()
 	int answer = menu();
 	switch (answer)
 	{
-	case 0: cout << "ѕќ ј" << endl; break;
-	case 1: cout << "ћ”’јћћјƒ" << endl; break;
+	case 0: cout << "√П√О√К√А" << endl; break;
+	case 1: cout << "√М√У√Х√А√М√М√А√Д" << endl; break;
 	case 2: cout << "4!" << endl; break;
-	case 3: cout << "“џ ”¬≈–≈Ќ „“ќ ’ќ„≈Ў№ ¬џ…“» ?" << endl;
-	case 4:	cout << "0.да" "1.нет" << endl;
+	case 3: cout << "√Т√Ы √У√В√Е√Р√Е√Н √Ч√Т√О √Х√О√Ч√Е√Ш√Ь √В√Ы√Й√Т√И ?" << endl;
+	case 4:	cout << "0.√§√†" "1.√≠√•√≤" << endl;
 
 	}
 	system("pause");
@@ -37,17 +36,17 @@ int menu()
 	do {
 		system("cls");
 		key = (key + 4) % 4;
-		if (key == 0) cout << "-> ѕ–»¬≈“" << endl;
-		else  cout << "   ѕ–»¬≈“" << endl;
+		if (key == 0) cout << "-> √П√Р√И√В√Е√Т" << endl;
+		else  cout << "   √П√Р√И√В√Е√Т" << endl;
 
-		if (key == 1) cout << "-> ’ќ„≈Ў№ ”«Ќј“№  ј  ћ≈Ќя «ќ¬”“ ?" << endl;
-		else  cout << "   ’ќ„≈Ў№ ”«Ќј“№  ј  ћ≈Ќя «ќ¬”“" << endl;
+		if (key == 1) cout << "-> √Х√О√Ч√Е√Ш√Ь √У√З√Н√А√Т√Ь √К√А√К √М√Е√Н√Я √З√О√В√У√Т ?" << endl;
+		else  cout << "   √Х√О√Ч√Е√Ш√Ь √У√З√Н√А√Т√Ь √К√А√К √М√Е√Н√Я √З√О√В√У√Т" << endl;
 
-		if (key == 2) cout << "-> — ќЋ№ ќ Ѕ”ƒ≈“ 2+2 ?" << endl;
-		else  cout << "   — ќЋ№ ќ Ѕ”ƒ≈“ 2+2 ?" << endl;
+		if (key == 2) cout << "-> √С√К√О√Л√Ь√К√О √Б√У√Д√Е√Т 2+2 ?" << endl;
+		else  cout << "   √С√К√О√Л√Ь√К√О √Б√У√Д√Е√Т 2+2 ?" << endl;
 
-		if (key == 3) cout << "-> ¬џ’ќƒ" << endl;
-		else  cout << "   ¬џ’ќƒ" << endl;
+		if (key == 3) cout << "-> √В√Ы√Х√О√Д" << endl;
+		else  cout << "   √В√Ы√Х√О√Д" << endl;
 
 
 
