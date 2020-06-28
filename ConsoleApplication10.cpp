@@ -12,7 +12,7 @@ int main()
 
 {
 	
-	
+	setlocale(LC_ALL,"RUS");
 
 
 	int answer = menu();
